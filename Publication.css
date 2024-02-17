@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+      box-sizing: border-box;
+      flex-wrap: wrap;
+}
+/* main nav bar */
+
+body
+{
+    background-color: black;
+    
+}
+
+#headerbox
+{ background-color: black;
+display: flex;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;}
+
+.headerbox1
+{   
+    margin-left: 7%;
+    width: 33%;
+    /* padding-left: 20px; */
+    /* background-color: palevioletred; */
+}
+.headerbox2
+{
+    
+    /* background-color: yellowgreen; */
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.btn-black
+{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+  /* justify-content: space-around; */
+
+}
+
+.btn-red
+{
+    padding: 16px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    display: flex;
+    align-items: center;
+}
+
+/* Publication book  */
+
+#publication
+{
+    background-color: black;
+   width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+.book2
+{
+    height: 100%;
+}
+
+.book1
+{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+/* Available at following branches */
+.branchise{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: grey;
+}
+
+.xxfont-white
+{
+    color: white;
+    font-size: xx-large;
+}
+
+.large-white
+{
+    color: white;
+    font-size: larger;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+#main-footer
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    color: grey;
+}
+.column1
+{
+    width: 24%;
+    
+}
+.column2
+{
+    padding-left: 30px;
+}
+.color-white
+{
+    color: white;
+}
+/* footer end */
+#footer-end
+{
+    display: flex;
+    color: grey;
+       /* background-color: palevioletred; */
+}
+.copyright, .Powered
+{
+    width: 50%;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+hr
+{
+width: 90%;
+margin-left: 5%;
+border: 1px solid grey;
+}

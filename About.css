@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+      box-sizing: border-box;
+      flex-wrap: wrap;
+}
+/* main nav bar */
+
+body
+{
+    background-color: black;
+    
+}
+
+#headerbox
+{ background-color: black;
+display: flex;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;}
+
+.headerbox1
+{   
+    margin-left: 7%;
+    width: 33%;
+    /* padding-left: 20px; */
+    /* background-color: palevioletred; */
+}
+.headerbox2
+{
+    
+    /* background-color: yellowgreen; */
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.btn-black
+{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+  /* justify-content: space-around; */
+
+}
+
+.btn-red
+{
+    padding: 16px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    border: 0px;
+    display: flex;
+    align-items: center;
+}
+
+/* __________________________________ */
+
+/* Introduction */
+.box1{
+    /* background-color: pink; */
+    text-align: center;
+}
+.box1-1{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.box1-2{
+    color: grey;
+}
+
+/* Restaurant */
+.box2{
+    /* background-color: pink; */
+    text-align: center;
+}
+.box2-1{
+    color: white;
+    font-size: 2rem;
+}
+.box2-3{
+    color: grey;
+}
+
+
+/* Restaurant Location */
+
+.box3
+{
+    /* background-color: aqua; */
+    color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box3-1
+{
+    width: 40%;
+}
+.large-bold{
+    font-size: 2rem;
+    color: white;
+}
+
+/* _______________________________ */
+.box4
+{
+    /* background-color: aqua; */
+    color: grey;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.box4-1
+{
+    width: 40%;
+}
+
+/* ________________________________ */
+
+.box5{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+/* _________________________________ */
+
+.box6
+{
+    /* background-color: aqua; */
+    color: grey;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.box6-1
+{
+    width: 40%;
+}
+
+/* _____________________________ */
+
+.box7
+{
+    /* background-color: aqua; */
+    color: grey;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box7-1
+{
+    width: 40%;
+}
+
+/* _____________________________ */
+
+.box8
+{
+    /* background-color: aqua; */
+    color: grey;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.box8-1
+{
+    width: 40%;
+}
+
+/* _______________________________ */
+
+.box9
+{
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.box9-1
+{
+    color: grey;
+}
+
+/* ________________________________ */
+
+.box10
+{
+    /* background-color: aqua; */
+    color: grey;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box10-1
+{
+    width: 40%;
+}
+
+/* _______________________________ */
+
+.box11{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+/* _________________________________ */
+
+#box12
+{
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    margin-left: 4%;
+}
+.box12-1
+{
+    background-color: #0f0f0f;
+    width: 30%;
+    /* display: flex; */
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    padding-bottom: 15px;   
+    margin-left: 3%;
+    border-radius: 10px;
+    color: grey;
+}
+.white-large
+{
+    color: white;
+    font-size: large;
+}
+
+/* __________________________ */
+
+/* box14 box10 */
+
+/* _______________________ */
+
+/* box14 box10 */
+
+.small-font
+{
+    color: white;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+#main-footer
+{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    color: grey;
+}
+.column1
+{
+    width: 24%;
+    
+}
+.column2
+{
+    padding-left: 30px;
+}
+.color-white
+{
+    color: white;
+}
+/* footer end */
+#footer-end
+{
+    display: flex;
+    color: grey;
+       /* background-color: palevioletred; */
+}
+.copyright, .Powered
+{
+    width: 50%;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+hr
+{
+width: 90%;
+margin-left: 5%;
+border: 1px solid grey;
+}
